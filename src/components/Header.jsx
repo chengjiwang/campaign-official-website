@@ -70,7 +70,7 @@ export default function Header() {
         <MobileMenu menuItems={menuItems} selectedMenuId={selectedMenuId} handleItemClick={handleItemClick} />
       )}
 
-      <div className="xl:hidden px-5 relative">
+      <div className="z-10 xl:hidden px-5 relative">
         <FiMenu className='w-full h-full' onClick={handleMenuClick} />
       </div>
     </header>
@@ -79,7 +79,7 @@ export default function Header() {
 
 const MobileMenu = ({ menuItems, selectedMenuId, handleItemClick }) => {
   return (
-    <div className='absolute top-8 right-4 py-4 px-2 bg-primary-200'>
+    <div className='z-10 absolute top-8 right-4 py-4 px-2 bg-primary-200'>
       <nav className="w-20 mt-5">
         <ul className="flex flex-col space-y-3 text-center">
           {menuItems.map((item) => (
