@@ -1,3 +1,7 @@
 body {
   background-color: #FFF0D9;
 }
+
+.active {
+  background-color: #F9C16A;
+}
