@@ -31,12 +31,12 @@ const campaigns = [
 
 export default function Campaign() {
   return (
-    <div id='campaign' className='container max-w-screen-xl mx-auto mt-7 xl:mt-32'>
+    <div id='campaign' className='container max-w-screen-xl mx-auto pt-7 xl:pt-32'>
       <h2 className='font-bold text-center text-xl md:text-4xl'>最新活動</h2>
       <div className='flex flex-wrap'>
         {campaigns.map(item => {
           return (
-            <div className='px-20 py-3 md:px-4 md:p-4 md:w-1/3'>
+            <div key={item.title} className='px-20 py-3 md:px-4 md:p-4 md:w-1/3'>
               <h3 className='mt-5 font-bold text-lg lg:text-2xl'>{item.title}</h3>           
               <img src={item.mobileImg} srcSet={`${item.desktopImg} 1024w, ${item.mobileImg} 512w`} alt="Campaign" className='my-3' />
               <p className='font-bold text-lg text-center lg:text-2xl'>{item.date}</p>

@@ -7,7 +7,7 @@ import "./App.css";
 function App() {
   return (
     <div>
-      <Header className="container max-w-screen-2xl mx-auto"/>
+      <Header />
       <Banner />
       <Introduce />
       <Campaign />
