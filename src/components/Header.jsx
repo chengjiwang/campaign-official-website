@@ -25,7 +25,7 @@ export default function Header() {
     {
       id: 1,
       name: "最新消息",
-      url: "#",
+      url: "#campaign",
     },
     {
       id: 2,
