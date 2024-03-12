@@ -3,6 +3,7 @@ import Banner from "./components/Banner.jsx";
 import Introduce from "./components/Introduce.jsx";
 import Campaign from "./components/Campaign.jsx";
 import Policy from "./components/Policy.jsx";
+import Donate from "./components/Donate.jsx";
 import "./App.css";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Introduce />
       <Campaign />
       <Policy />
+      <Donate />
     </>
   );
 }

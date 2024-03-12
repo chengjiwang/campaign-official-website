@@ -23,7 +23,7 @@ const menuItems = [
   {
     id: 3,
     name: "小額捐款",
-    url: "donate'",
+    url: "donate",
   },
 ];
 
