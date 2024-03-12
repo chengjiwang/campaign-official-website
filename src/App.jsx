@@ -4,6 +4,7 @@ import Introduce from "./components/Introduce.jsx";
 import Campaign from "./components/Campaign.jsx";
 import Policy from "./components/Policy.jsx";
 import Donate from "./components/Donate.jsx";
+import Contact from "./components/Contact.jsx";
 import "./App.css";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Campaign />
       <Policy />
       <Donate />
+      <Contact />
     </>
   );
 }
