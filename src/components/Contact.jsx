@@ -38,7 +38,7 @@ export default function Contact() {
         </div>
 
         <div className='text-left'>
-          <button className='font-bold text-xl rounded-lg bg-primary-300 p-4 w-[130px] md:w-[200px] md:text-4xl md:p-2'>送出</button>
+          <button className='font-bold text-xl rounded-lg bg-primary-300 p-2 w-[130px] md:w-[200px] md:text-4xl md:p-4'>送出</button>
         </div>      
       </form>
     </section>
