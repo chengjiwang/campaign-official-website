@@ -11,7 +11,7 @@ const donateItem = [
 
 export default function Donate() {
   return (
-    <section id='donate' className='container max-w-screen-lg mx-auto px-8 py-6 font-bold md:py-16'>
+    <section className='container max-w-screen-lg mx-auto px-8 py-6 font-bold md:py-16'>
       <div>
         <h2 className='mb-2 text-center text-xl md:mb-8 md:text-6xl'>小額捐款</h2>
         <h3 className='mb-1 text-xl md:text-3xl md:text-center md:mb-6'>您的小筆捐款，是每隻毛孩未來的大大動力！</h3>
