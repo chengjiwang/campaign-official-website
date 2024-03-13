@@ -4,7 +4,7 @@ import bannerMobileImg from "../assets/banner_mobile.png";
 
 export default function Banner() {
   return (
-    <section id='index' className='relative flex justify-center pt-20 xl:pt-40'>
+    <section className='relative flex justify-center pt-20 xl:pt-40'>
       <img src={bannerMobileImg} className='w-full opacity-50 xl:hidden' />
       <img src={bannerDesktopImg} className='hidden opacity-50 xl:block' />
 

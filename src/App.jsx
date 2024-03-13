@@ -12,8 +12,10 @@ function App() {
   return (
     <>
       <Header />
-      <Banner />
-      <Introduce />
+      <div id='index'>
+        <Banner />
+        <Introduce />
+      </div>
       <Campaign />
       <Policy />
       <div id='donate'>
