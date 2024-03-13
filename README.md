@@ -1,9 +1,11 @@
 # campaign-official-website
 
+2023 THE F2E Mission1 - 立委競選官網
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- [Demo](https://chengjiwang.github.io/campaign-official-website/)
+- [Design (by JudyWang)](https://www.figma.com/file/eXFzGjSYOTILiEzG9cPiaW/Untitled?type=design&node-id=0-1&mode=design&t=o2oXA4AwzhbaHDIk-0)
 
-Currently, two official plugins are available:
+## 使用技術
+- React
+- Tailwind CSS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
