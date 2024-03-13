@@ -51,9 +51,9 @@ export default function Header() {
               <Link
                 activeClass="active"
                 to={item.url}
-                spy={true}
+                spy={true}         
                 smooth={true}
-                offset={-100}
+                offset={-180}
                 duration={1000}
                 className="block w-40 py-2 cursor-pointer border-x-4 border-primary-300 hover:bg-primary-300 text-2xl"
               >
